@@ -1,0 +1,50 @@
+[
+  {
+    "title": "React Js",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS3",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/bootstrap.png"
+  },
+  {
+    "title": "Material Ui",
+    "imageSrc": "skills/materialUi.png"
+  },
+  {
+    "title": "Node Js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Express Js",
+    "imageSrc": "skills/express.png"
+  },
+  {
+    "title": "Git Hub",
+    "imageSrc": "skills/gitHub.png"
+  },
+  {
+    "title": "Bitbucket",
+    "imageSrc": "skills/bitbucket.png"
+  },
+  {
+    "title": "Jest testing",
+    "imageSrc": "skills/jest.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  }
+]
