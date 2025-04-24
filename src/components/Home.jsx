@@ -7,8 +7,8 @@ const Home = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["welcome to my profile",
-        "My Name is Pooja Powar, I'm front end developer"],
+      strings: ["Welcome to my profile",
+        "My name is pooja powar, I'm front end developer"],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true
@@ -26,12 +26,12 @@ const Home = () => {
       {/* .container.home (for create class container home) */}
       <div className="container home">
         <div className="left">
-          <h1 ref={typedRef}>Hello i'm pooja powar</h1>
-          <button type="button" class="btn btn-outline-primary my-3">Hire Me</button>
+          <h2 ref={typedRef}>Hello i'm pooja powar</h2>
+          <button type="button" class="btn btn-outline-primary my-3 fw-semibold">Hire Me</button>
         </div>
         <div className="right">
           <div className='img'>
-            <img src="assets/hero.jpg" alt="hero" />
+            <img src="assets/developer1.jpg" alt="hero" />
           </div>
         </div>
       </div>

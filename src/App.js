@@ -6,10 +6,12 @@ import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
-import Message from './components/message/Message';
+import Contact from './components/Contact/Contact';
+import Talk from './components/Talk/Talk';
 
 function App() {
   return (
+    <div className='App'>
     <BrowserRouter>
       <Navbar />
       <Routes>
@@ -17,9 +19,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/contact" element={<Message />} /> 
+        <Route path="/contact" element={<Contact />} /> 
+        <Route path="/let's talk" element={<Talk />} /> 
       </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 

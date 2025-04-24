@@ -1,0 +1,74 @@
+.contact {
+  padding: 50px 20px;
+  background: linear-gradient(145deg, #f5f5f5, #c5c4c4);
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.05);
+  color: black;
+  text-align: center;
+  width: 700px;
+  margin-top: 40px;
+}
+
+.contact h2 {
+  color: rgb(66, 3, 63);
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: rgb(3, 3, 239);
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgb(99, 115, 168);
+  background-color: whitesmoke;
+  color: black;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contzact-form textarea:focus {
+  outline: none;
+  border-color: rgb(91, 205, 209);
+}
+
+.contact-form button {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(31, 132, 172);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: rgb(65, 160, 170);
+}
+
+/* 📱 Responsive */
+@media (min-width: 481px) and (max-width: 768px){
+  .contact{
+    width: 400px;
+    margin-left: 15%;
+  }
+  .contact h2 {
+    font-size: 1.4rem;
+  }
+
+  .contact-form {
+    padding: 0 10px;
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='objective'>
+    <div className='container objective'>
       <h2>Objective</h2>
       <p>Experienced front-end developer  with over 2 years of hands-on experience in designing and implementing 
 cutting-edge web applications. Proficient in front-end technologies, including HTML5, CSS3, and 
