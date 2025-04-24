@@ -181,7 +181,7 @@ code {
 /* ------------------------------
    💻 Tablets (481px – 768px)
 -------------------------------- */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
   .nav_bar {
     flex-direction: column;
     align-items: center;
